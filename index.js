@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import boxen from "boxen";
 import { confirm, input } from "@inquirer/prompts";
 import {
