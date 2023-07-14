@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "@inquirer/prompts": "^2.3.0",
+    "boxen": "^7.1.1",
+    "chalk": "^4.1.2",
+    "chalk-animation": "^1.6.0",
+    "clui": "^0.3.6",
+    "figlet": "^1.5.2",
+    "inquirer": "^8.2.0",
+    "mysql": "^2.18.1",
+    "nanospinner": "^1.0.0"
+  },
+  "name": "cli-defensa",
+  "type": "module",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
