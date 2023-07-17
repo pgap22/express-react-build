@@ -50,7 +50,7 @@ while (step_one) {
 
     await runCommandsOnServerFolder(directory, [
       "git clone https://github.com/pgap22/3-layers-template-api.git .",
-      `echo DATABASE_URL='mysql://${DB_USER}@${DB_PASSWORD}:localhost:3306/${DB_NAME} > ./.env`,
+      `echo DATABASE_URL='mysql://${DB_USER}@${DB_PASSWORD}:localhost:3306/${DB_NAME}' > ./.env`,
     ]);
 
     spinnerGit.success();
