@@ -10,9 +10,9 @@
     "mysql": "^2.18.1",
     "nanospinner": "^1.0.0"
   },
-  "name": "cli-defensa",
+  "name": "express-react-build",
   "type": "module",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
