@@ -49,7 +49,7 @@ while (step_one) {
     const spinnerGit = createSpinner("Installing Express !").start();
 
     await runCommandsOnServerFolder(directory, [
-      "git clone https://github.com/pgap22/3-layers-template-api.git .",
+      "git clone https://github.com/pgap22/express-cli.git .",
       `echo DATABASE_URL="mysql://${DB_USER}:${DB_PASSWORD}@localhost:3306/${DB_NAME}" > ./.env`,
     ]);
 
