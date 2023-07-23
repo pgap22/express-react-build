@@ -100,7 +100,7 @@ while (step_two) {
 
   await runCommandsOnClientFolder(directory, [
     "git clone https://github.com/pgap22/react-cli-template.git .",
-    `echo VITE_API=http://localhost:4000/api/v1 > ./.env`,
+    `echo VITE_API=http://localhost:4000 > ./.env`,
   ]);
 
   spinnerReact.success({ text: "React installed !" });
